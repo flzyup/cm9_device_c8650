@@ -120,6 +120,10 @@ PRODUCT_COPY_FILES += \
     device/huawei/c8650/prebuilt/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     device/huawei/c8650/prebuilt/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw
 
+PRODUCT_COPY_FILES += \
+    device/huawei/c8650/prebuilt/bin/vold:system/bin/vold \
+    device/huawei/c8650/prebuilt/etc/AudioFilter.csv:system/etc/AudioFilter.csv
+
 # Kernel modules
 #PRODUCT_COPY_FILES += \
  #   device/huawei/c8650/prebuilt/lib/modules/zram.ko:system/lib/modules/zram.ko
@@ -130,8 +134,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Bluetooth configuration files
 PRODUCT_COPY_FILES += \
-    device/huawei/c8650/prebuilt/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
-    system/bluetooth/data/main.conf:system/etc/bluetooth/main.conf
+    device/huawei/c8650/prebuilt/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh
 
 # Touchscreen
 PRODUCT_COPY_FILES += \

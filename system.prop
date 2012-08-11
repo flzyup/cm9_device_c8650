@@ -29,7 +29,7 @@ ro.config.cdma_subscription=0
 ril.subscription.types=RUIM,NV
 ro.cdma.voicemail.number=mine
 keyguard.no_require_sim=true
-ro.cdma.factory=huawei
+ro.cdma.factory=china
 
 
 # USB
@@ -49,6 +49,9 @@ ro.config.disable_hw_accel=true
 dalvik.vm.lockprof.threshold=500
 dalvik.vm.dexopt-flags=m=y
 dalvik.vm.dexopt-data-only=1
+
+DEVICE_PROVISIONED=1
+com.qc.hardware=true
 
 # Misc.
 ro.com.android.dateformat=dd-MM-yyyy
